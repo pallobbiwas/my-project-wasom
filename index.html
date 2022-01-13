@@ -1,13 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my-awsem-project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/styel.css">
 </head>
+
 <body>
-    <p>hello world</p>
+    <!-- nav bar -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <img src="./assets/images/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Feature</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="container">
+            <aside class="banner">
+                <div class="left-benner">
+                    <div class="banner-content">
+                        <h1 class="banner-heading">
+                            ‘Cartoons And Anime Series Stream Anytime On <span class="highlight">Cosmic World</span> ’
+                        </h1>
+                        <p class="banner-pera">
+                            Cosmic World is a cartoon streaming website. Your task is to make a responsive landing page
+                            for them with the help of HTML and CSS. The landing page will have 6-7 sections and the
+                            following sections are given below
+                        </p>
+                        <button class="my-button">Browse now</button>
+                    </div>
+                </div>
+                <div class="right-banner">
+                    <img src="./assets/images/banner.png" alt="">
+                </div>
+            </aside>
+        </section>
+    </header>
+    <main class="container">
+        <section id="feature">
+            <h2 class="section-heading">Fea<span class="highlight">t</span>ure</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-book"></i>
+                    <h3>Creative Story</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque reiciendis incidunt
+                        sunt voluptatibus aut quisquam praesentium vero minima tenetur.
+                    </p>
+                    <a href="">Red More</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-camera"></i>
+                    <h3>4k Support</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque reiciendis incidunt
+                        sunt voluptatibus aut quisquam praesentium vero minima tenetur.
+                    </p>
+                    <a href="">Red More</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-star"></i>
+                    <h3>Super Quality</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque reiciendis incidunt
+                        sunt voluptatibus aut quisquam praesentium vero minima tenetur.
+                    </p>
+                    <a href="">Red More</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Highly Secured</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque reiciendis incidunt
+                        sunt voluptatibus aut quisquam praesentium vero minima tenetur.
+                    </p>
+                    <a href="">Red More</a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2 class="section-heading">ab<span class="highlight">o</span>ut</h2>
+            <aside class="about-conainer">
+                <div class="about-left">
+                    <div class="about-photo">
+                        <img src="./assets/images/thumbsup.png" alt="">
+                    </div>
+                </div>
+                <div class="about-right">
+                    <h3>#1 Animation Studio Present</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, excepturi distinctio. Ipsa
+                        quis placeat mollitia!lorem15 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Reiciendis veritatis fuga obcaecati similique aperiam earum? </p>
+                </div>
+            </aside>
+        </section>
+        <section id="gallery">
+            <h2 class="section-heading">gal<span class="highlight">l</span>ery</h2>
+            <aside class="my-gallery">
+                <div class="gallery-photo">
+                    <img src="./assets/images/godzilla.jpg" alt="">
+                </div>
+                <div class="gallery-photo">
+                    <img src="./assets/images/images (2).jpg" alt="">
+                </div>
+                <div class="gallery-photo">
+                    <img src="./assets/images/images (3).jpg" alt="">
+                </div>
+                <div class="gallery-photo">
+                    <img src="./assets/images/images (4).jpg" alt="">
+                </div>
+                <div class="gallery-photo">
+                    <img src="./assets/images/images (5).jpg" alt="">
+                </div>
+                <div class="gallery-photo">
+                    <img src="./assets/images/images (6).jpg" alt="">
+                </div>
+            </aside>
+        </section>
+        <section id="contact">
+            <h2 class="section-heading">con<span class="highlight">t</span>act</h2>
+            <aside class="contact-from">
+                <div class="contact-left">
+                    <img src="./assets/images/contact.png" alt="">
+                </div>
+                <div class="contact-right">
+                    <input class="text-area" type="text" name="name" placeholder="Your Name">
+                    <input class="text-area" type="email" name="email" placeholder="Your Email">
+                    <textarea class="text-area" name="massage" placeholder="Massage" rows="4"></textarea>
+                    <button class="my-button button">submit</button>
+                </div>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="social">
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-linkedin"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                </ul>
+            </div>
+            <p><small>copy-right&copy;every thing reserved by <span class="highlight">cosmic world</span></small></p>
+        </div>
+    </footer>
 </body>
+
 </html>
